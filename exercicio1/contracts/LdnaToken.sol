@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.11;
 
-import "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract LdnaToken is ERC20 {
     uint256 constant _initial_supply = 100;
